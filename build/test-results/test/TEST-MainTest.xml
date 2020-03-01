@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-03-01T21:20:32" hostname="MacBook-Pro-2" time="0.046">
+  <properties/>
+  <testcase name="answer should be guessed correctly in guessing game composition with interface()" classname="MainTest" time="0.035"/>
+  <testcase name="answer should not be guessed correctly in guessing game composition()" classname="MainTest" time="0.002"/>
+  <testcase name="dog should wag tail when instructed()" classname="MainTest" time="0.002"/>
+  <testcase name="answer should not be guessed correctly in guessing game()" classname="MainTest" time="0.002"/>
+  <testcase name="answer should not be guessed correctly in guessing game inheritence()" classname="MainTest" time="0.002"/>
+  <system-out><![CDATA[please guess a number between 1 and 10
+You guess correctly
+please guess a number between 1 and 100
+Your guess was too high
+please guess a number between 1 and 100
+Your guess was too high
+please guess a number between 1 and 100
+Your guess was too high
+please guess a number between 1 and 100
+Your guess was too high
+please guess a number between 1 and 100
+Your guess was too high
+please guess a number between 1 and 100
+Your guess was too high
+please guess a number between 1 and 100
+Your guess was incorrect
+please guess a number between 1 and 100
+Your guess was incorrect
+please guess a number between 1 and 100
+Your guess was incorrect
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
