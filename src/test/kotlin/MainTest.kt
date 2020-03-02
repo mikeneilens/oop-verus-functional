@@ -1,5 +1,4 @@
-import org.junit.jupiter.api.Assertions.assertFalse
-import org.junit.jupiter.api.Assertions.assertTrue
+import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 
 class MainTest {
@@ -40,5 +39,27 @@ class MainTest {
         guessingGame.playGame()
         assertTrue(guessingGame.valueWasGuessedCorrectly)
     }
+
+    @Test
+    fun `answer should not be guessed correctly in guessing game with simple function`() {
+        val guessingGame = GuessingGameWithSimpleFunction(checkGuess)
+        guessingGame.playGame()
+        assertFalse(guessingGame.valueWasGuessedCorrectly)
+    }
+
+    @Test
+    fun `answer should not be guessed correctly in guessing game with high order function`() {
+        val guessingGame = GuessingGameHighOrderFunction(refereeCreator)
+        guessingGame.playGame()
+        assertFalse(guessingGame.valueWasGuessedCorrectly)
+    }
+
+    @Test
+    fun `my map should transfor a list of numbers into a list of strings`() {
+        val tranformer = {number:Int -> "$number!"}
+        val result = myMap(listOf(11,5,7,141), tranformer)
+        assertEquals(listOf("11!","5!","7!","141!"), result)
+    }
+
 }
 

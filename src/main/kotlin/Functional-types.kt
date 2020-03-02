@@ -24,3 +24,5 @@ sealed class LinkedListWithNoNulls {
     object End:LinkedListWithNoNulls()
     class Link(val value:Int, val next:LinkedListWithNoNulls):LinkedListWithNoNulls()
 }
+
+val result = checkGuess(42,76)
