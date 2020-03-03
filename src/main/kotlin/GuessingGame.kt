@@ -17,7 +17,7 @@ open class GuessingGame() {
             println("please guess a number between 1 and 100")
             val guess = obtainGuess()
             valueWasGuessedCorrectly = checkGuess(guess)
-            if (!valueWasGuessedCorrectly) guessesLeft--
+            guessesLeft--
         }
     }
     open fun checkGuess(guess:Int):Boolean {

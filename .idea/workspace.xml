@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abfffe3c-624d-4258-bd5f-8d1441fdc9c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/GuessingGameHighOrderFunction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/GuessingGameWithSimpleFunction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/myMap.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Chaining.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Filtering.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Functional-types.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Functional-types.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Dog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Dog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/GuesingGameComposition.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/GuesingGameComposition.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/GuessingGame.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/GuessingGame.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/GuessingGameHighOrderFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/GuessingGameHighOrderFunction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/GuessingGameUsingInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/GuessingGameUsingInterface.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/GuessingGameWithSimpleFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/GuessingGameWithSimpleFunction.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/MainTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/MainTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -55,7 +57,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.my map should transfor a list of numbers into a list of strings">
+  <component name="RunManager" selected="JUnit.MainTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -68,25 +70,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;MainTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop-versus-functional.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MainTest.answer should not be guessed correctly in guessing game with high order function" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-versus-functional.test" />
@@ -104,6 +96,17 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
       <option name="METHOD_NAME" value="answer should not be guessed correctly in guessing game with simple function" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.answer should not be guessed correctly in guessing game" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop-versus-functional.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="answer should not be guessed correctly in guessing game" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -148,10 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.MainTest.answer should not be guessed correctly in guessing game" />
         <item itemvalue="JUnit.MainTest.my map should transfor a list of numbers into a list of strings" />
         <item itemvalue="JUnit.MainTest.answer should not be guessed correctly in guessing game with high order function" />
         <item itemvalue="JUnit.MainTest.answer should not be guessed correctly in guessing game with simple function" />
-        <item itemvalue="Gradle.MainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -192,26 +196,26 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="539" y="197" width="898" height="711" key="#MainTest.answer_should_not_be_guessed_correctly_in_guessing_game_with_high_order_function/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1583162902911" />
-    <state x="738" y="190" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1583162029893">
+    <state x="738" y="190" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1583242380349">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="738" y="190" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1583162029893" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1583164572955">
+    <state x="738" y="190" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1583242380349" />
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1583246519721">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1583164572955" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1583164572955">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1583246519721" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1583246519721">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1583164572955" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1583164572955">
+    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1583246519721" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1583246519721">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1583164572955" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1583164572955">
+    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1583246519721" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1583246519721">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1583164572955" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1583246519721" />
     <state x="482" y="187" key="SettingsEditor" timestamp="1583160651705">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -220,5 +224,9 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="657" y="242" width="662" height="620" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1583160529166" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1583242259802">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1583242259802" />
   </component>
 </project>

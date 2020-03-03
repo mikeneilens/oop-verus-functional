@@ -30,7 +30,7 @@ class GuessingGameWithSimpleFunction (val checkGuess:(Int, Int)->Boolean) {
             println("please guess a number between 1 and 100")
             val guess = obtainGuess()
             valueWasGuessedCorrectly = checkGuess(guess, valueToGuess)
-            if (!valueWasGuessedCorrectly) guessesLeft--
+            guessesLeft--
         }
     }
 

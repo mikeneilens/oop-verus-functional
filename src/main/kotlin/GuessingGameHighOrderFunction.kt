@@ -1,10 +1,10 @@
 
-val refereeCreator = {
+val refereeCreator:() -> (Int) -> Boolean = {
     val valueToGuess = (0..100).random();
     { guess:Int -> checkGuess(guess, valueToGuess) }
 }
 
-class GuessingGameHighOrderFunction (val createReferee:() -> (Int)->  Boolean) {
+class GuessingGameHighOrderFunction (val createReferee:() -> ((Int)->  Boolean) ) {
 
     val noOfGuessesAllowed = 3
     var valueWasGuessedCorrectly = true
@@ -23,7 +23,7 @@ class GuessingGameHighOrderFunction (val createReferee:() -> (Int)->  Boolean) {
             println("please guess a number between 1 and 100")
             val guess = obtainGuess()
             valueWasGuessedCorrectly = checkGuess(guess)
-            if (!valueWasGuessedCorrectly) guessesLeft--
+            guessesLeft--
         }
     }
 

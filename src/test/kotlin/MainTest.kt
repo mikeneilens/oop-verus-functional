@@ -4,14 +4,6 @@ import org.junit.jupiter.api.Test
 class MainTest {
 
     @Test
-    fun `dog should wag tail when instructed`() {
-        val mike = Person("mike")
-        val myDog = Dog(name = "rover", owner = mike)
-        myDog.wagTail()
-        assertTrue(myDog.tailIsWagging)
-    }
-
-    @Test
     fun `answer should not be guessed correctly in guessing game`() {
         val guessingGame = GuessingGame()
         guessingGame.playGame()
@@ -57,8 +49,32 @@ class MainTest {
     @Test
     fun `my map should transfor a list of numbers into a list of strings`() {
         val tranformer = {number:Int -> "$number!"}
-        val result = myMap(listOf(11,5,7,141), tranformer)
+        val result = listOf(11,5,7,141).myMap(tranformer)
         assertEquals(listOf("11!","5!","7!","141!"), result)
+    }
+
+    @Test
+    fun `createTableData should only include lists in the createdTable that are not empty`() {
+        val resultWithTwoLists = createTableData(listOf("dyson v10", "dyson hair dryer"), listOf("Dyson"))
+        assertEquals(2 ,resultWithTwoLists.size)
+
+        val resultWithOnlyProducts = createTableData(listOf("dyson v10", "dyson hair dryer"), listOf())
+        assertEquals(1 ,resultWithOnlyProducts.size)
+
+        val resultWithOnlyBrands = createTableData(listOf(), listOf("Dyson"))
+        assertEquals(1 ,resultWithOnlyBrands.size)
+    }
+
+    @Test
+    fun `createTableData2 should only include lists in the createdTable that are not empty`() {
+        val resultWithTwoLists = createTableData2(listOf("dyson v10", "dyson hair dryer"), listOf("Dyson"))
+        assertEquals(2 ,resultWithTwoLists.size)
+
+        val resultWithOnlyProducts = createTableData2(listOf("dyson v10", "dyson hair dryer"), listOf())
+        assertEquals(1 ,resultWithOnlyProducts.size)
+
+        val resultWithOnlyBrands = createTableData2(listOf(), listOf("Dyson"))
+        assertEquals(1 ,resultWithOnlyBrands.size)
     }
 
 }

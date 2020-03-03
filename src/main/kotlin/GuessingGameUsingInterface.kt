@@ -22,7 +22,7 @@ class GuessingGameUsingInterface(val referee:SomeoneThatCanReferee) {
             referee.askQuestion()
             val guess = obtainGuess()
             valueWasGuessedCorrectly = referee.checkGuess(guess)
-            if (!valueWasGuessedCorrectly) guessesLeft--
+            guessesLeft--
         }
     }
 

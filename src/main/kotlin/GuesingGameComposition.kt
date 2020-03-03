@@ -16,7 +16,7 @@ class GuessingGameComposition(val referee:Referee) {
             referee.askQuestion()
             val guess = obtainGuess()
             valueWasGuessedCorrectly = referee.checkGuess(guess)
-            if (!valueWasGuessedCorrectly) guessesLeft--
+            guessesLeft--
         }
     }
 
