@@ -25,4 +25,4 @@ sealed class LinkedListWithNoNulls {
     class Link(val value:Int, val next:LinkedListWithNoNulls):LinkedListWithNoNulls()
 }
 
-val result = checkGuess(42,76)
+val result = checkGuessFunction(42,76)

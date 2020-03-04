@@ -1,7 +1,7 @@
 
 val refereeCreator:() -> (Int) -> Boolean = {
     val valueToGuess = (0..100).random();
-    { guess:Int -> checkGuess(guess, valueToGuess) }
+    { guess:Int -> checkGuessFunction(guess, valueToGuess) }
 }
 
 class GuessingGameHighOrderFunction (val createReferee:() -> ((Int)->  Boolean) ) {

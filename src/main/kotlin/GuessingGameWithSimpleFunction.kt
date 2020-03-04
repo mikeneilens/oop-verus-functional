@@ -1,5 +1,5 @@
 
-val  checkGuess =   { guess:Int, valueToGuess:Int -> Boolean
+val  checkGuessFunction =   { guess:Int, valueToGuess:Int -> Boolean
     println("The number to guess is $valueToGuess")
     if (guess == valueToGuess) {
         println("You guess correctly")

@@ -34,7 +34,7 @@ class MainTest {
 
     @Test
     fun `answer should not be guessed correctly in guessing game with simple function`() {
-        val guessingGame = GuessingGameWithSimpleFunction(checkGuess)
+        val guessingGame = GuessingGameWithSimpleFunction(checkGuessFunction)
         guessingGame.playGame()
         assertFalse(guessingGame.valueWasGuessedCorrectly)
     }

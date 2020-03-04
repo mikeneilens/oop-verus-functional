@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abfffe3c-624d-4258-bd5f-8d1441fdc9c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Chaining.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Filtering.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Dog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Dog.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/GuesingGameComposition.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/GuesingGameComposition.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/GuessingGame.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/GuessingGame.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/GuessingGameHighOrderFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/GuessingGameHighOrderFunction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/GuessingGameUsingInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/GuessingGameUsingInterface.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/GuessingGameWithSimpleFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/GuessingGameWithSimpleFunction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/MainTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/MainTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,22 +191,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="738" y="190" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1583242380349" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1583246519721">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1583316593949">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1583246519721" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1583246519721">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1583316593949" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1583316593949">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1583246519721" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1583246519721">
+    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1583316593949" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1583316593949">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1583246519721" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1583246519721">
+    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1583316593949" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1583316593949">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1583246519721" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1583316593949" />
     <state x="482" y="187" key="SettingsEditor" timestamp="1583160651705">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
