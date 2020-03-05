@@ -2,7 +2,7 @@ class Referee {
     var valueToGuess:Int = 0
 
     fun resetValueToGuess() {
-        valueToGuess = (0..100).random()
+        valueToGuess = (1..100).random()
     }
 
     fun askQuestion()  { println("please guess a number between 1 and 100")}

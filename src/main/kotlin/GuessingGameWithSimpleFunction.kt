@@ -21,7 +21,7 @@ class GuessingGameWithSimpleFunction (val checkGuess:(Int, Int)->Boolean) {
     fun startNewGame() {
         guessesLeft = noOfGuessesAllowed
         valueWasGuessedCorrectly = false
-        valueToGuess = (0..100).random()
+        valueToGuess = (1..100).random()
     }
 
     fun playGame() {

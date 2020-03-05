@@ -8,7 +8,7 @@ open class GuessingGame() {
     fun startNewGame() {
         guessesLeft = noOfGuessesAllowed
         valueWasGuessedCorrectly = false
-        valueToGuess = (0..100).random()
+        valueToGuess = (1..100).random()
     }
 
     fun playGame() {

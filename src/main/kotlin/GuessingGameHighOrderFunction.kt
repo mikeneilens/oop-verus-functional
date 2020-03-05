@@ -1,6 +1,6 @@
 
 val refereeCreator:() -> (Int) -> Boolean = {
-    val valueToGuess = (0..100).random();
+    val valueToGuess = (1..100).random();
     { guess:Int -> checkGuessFunction(guess, valueToGuess) }
 }
 

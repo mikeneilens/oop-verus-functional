@@ -2,7 +2,7 @@ class SomeoneThatCanReferee:CanRefereeGuessingGame {
     var valueToGuess:Int = 0
 
     override fun resetValueToGuess() {
-        valueToGuess = (0..100).random()
+        valueToGuess = (1..100).random()
     }
 
     override fun askQuestion() {
